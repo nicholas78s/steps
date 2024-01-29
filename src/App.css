@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.del,
+.edit {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  text-indent: 0;
+  padding-left: 0;
+}
+
+li span.col {
+  display: inline-block;
+  width: 200px;
+}
+
+div.hist {
+  border: 2px solid gray;
+  border-radius: 20px;
+  width: 650px;
+}
+
+div.form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 650px;
+  margin-bottom: 10px;
+}
+
+div.form div {
+  flex: 0 0 200px;
+}
+
+.form input {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.form button {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
